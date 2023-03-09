@@ -11,9 +11,9 @@
         do
         {
             Console.Clear();
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     Console.Write($"Digite um valor na posição mat[{i}, {j}] = ");
                     mat[i, j] = int.Parse(Console.ReadLine());
@@ -23,17 +23,17 @@
 
             double[,] matI = new double[3, 3];
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
-                    matI[(2 - i), (2 - j)] = mat[i, j];
+                    matI[((mat.GetLength(0) - 1) - i), ((mat.GetLength(1) - 1) - j)] = mat[i, j];
                 }
             }
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     Console.Write(mat[i, j].ToString().PadRight(5) + " ");
                 }
@@ -41,9 +41,9 @@
             }
             Console.WriteLine();
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < mat.GetLength(0); i++)
             {
-                for (int j = 0; j < 3; j++)
+                for (int j = 0; j < mat.GetLength(1); j++)
                 {
                     Console.Write(matI[i, j].ToString().PadRight(5) + " ");
                 }
