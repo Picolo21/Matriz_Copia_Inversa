@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matriz_Copia_Inversa", "Matriz_Copia_Inversa\Matriz_Copia_Inversa.csproj", "{4C99D36E-39C2-4332-9278-E5C6150B9619}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C99D36E-39C2-4332-9278-E5C6150B9619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C99D36E-39C2-4332-9278-E5C6150B9619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C99D36E-39C2-4332-9278-E5C6150B9619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C99D36E-39C2-4332-9278-E5C6150B9619}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {477A249C-2A68-490A-8629-D43AAEB27F86}
+	EndGlobalSection
+EndGlobal
